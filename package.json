@@ -4,7 +4,7 @@
     "description": "Drag and drop your own projects!",
     "main": "app.js",
     "scripts": {
-        "start": "webpack-dev-server",
+        "start": "node server.js",
         "build": "webpack"
     },
     "keywords": [
@@ -19,5 +19,9 @@
         "webpack": "5.74.0",
         "webpack-cli": "4.10.0",
         "webpack-dev-server": "4.10.0"
+    },
+    "dependencies": {
+        "body-parser": "1.20.0",
+        "express": "4.18.1"
     }
 }
